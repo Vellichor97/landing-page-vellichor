@@ -14,14 +14,12 @@ body {
     gap: 60px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-around;
-}
-
+.header,
 .subheader {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 500px;
+    align-items: flex-start;
 }
 
 .logo {
@@ -32,7 +30,7 @@ body {
 
 .large-text {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -50,3 +48,27 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+img {
+    width: 450px;
+    height: auto;
+}
+
+.subheader-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+}
+
