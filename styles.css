@@ -5,6 +5,10 @@
 body {
     margin: 0;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
 .header-container {
     display: flex;
@@ -17,8 +21,9 @@ body {
 .header,
 .subheader {
     display: flex;
-    justify-content: space-between;
-    padding: 0px 500px;
+    justify-content: center;
+    gap: 300px;
+    /* padding: 0px 500px; */
     align-items: flex-start;
 }
 
@@ -72,3 +77,41 @@ button {
     padding: 10px 15px;
 }
 
+.information {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+    gap: 50px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color:#3882F6;
+    border-style: solid;
+}
+
+
+.card-text {
+    text-align: center;
+    max-width: 150px;
+}
