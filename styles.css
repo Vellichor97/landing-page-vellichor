@@ -21,10 +21,10 @@ body {
 .header,
 .subheader {
     display: flex;
-    justify-content: center;
-    gap: 300px;
-    /* padding: 0px 500px; */
-    align-items: flex-start;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 0px 400px;
+    /* align-items: s */
 }
 
 .logo {
