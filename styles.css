@@ -134,3 +134,31 @@ button {
     font-weight: bold;
     font-size: 22px;
 }
+
+.sign-up-container {
+    padding: 100px 400px;
+}
+
+.sign-up-card {
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-button {
+    border-style: solid;
+    width: 150px;
+}
+
+.call-to-action-1 {
+    font-weight: 900;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.call-to-action-2 {
+    font-size: 18px;
+}
